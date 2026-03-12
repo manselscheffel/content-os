@@ -1,0 +1,43 @@
+# YouTube SEO - Seed Keywords
+# Add/remove keywords to monitor. These are the root terms
+# that get expanded with prefix variations during autocomplete checks.
+#
+# TEMPLATE: Replace these with keywords relevant to YOUR niche.
+
+seed_keywords:
+  # Add your core topic keywords here
+  # Examples:
+  # - your main topic
+  # - specific tool name
+  # - industry term
+  # - competitor tool
+
+  # Placeholder examples (replace with your own):
+  - ai tools
+  - automation
+  - ai coding
+
+settings:
+  # Prefixes added to each seed keyword for autocomplete expansion
+  # "" = bare keyword, others create variations like "how to <keyword>"
+  suggestion_prefixes:
+    - ""
+    - "how to "
+    - " tutorial"
+    - " vs "
+    - " for beginners"
+
+  # Views per hour threshold to flag a video as "hot"
+  velocity_threshold: 500
+
+  # Delay between autocomplete API requests (ms)
+  request_delay_ms: 200
+
+  # Google Trends timeframe
+  trends_timeframe: "now 7-d"
+
+  # Where to save daily reports
+  report_dir: "data/youtube_seo"
+
+  # Max age (hours) for "rising video" detection
+  rising_video_max_age_hours: 72

@@ -1,0 +1,23 @@
+channel_name: ''
+niche: AI automation, developer tools
+colors:
+  primary: '#FFFFFF'
+  secondary: '#FF6B35'
+  accent: '#A855F7'
+  background: '#0A0A0A'
+font_style: bold Impact-style sans-serif, white with thick black outline
+style_keywords: dark gradient background, colored neon glow effects behind icons, centered
+  face composition, product icons flanking subject, cinematic lighting, high contrast
+camera_spec: Sony A7R IV, 85mm portrait lens, f/1.8, natural skin texture, hard rim
+  lighting
+face_photo_path: assets/base-face.jpg
+model:
+  provider: google
+  model_id: gemini-3.1-flash-image-preview
+  resolution: 2K
+  aspect_ratio: '16:9'
+output:
+  width: 1280
+  height: 720
+  max_file_size_kb: 2048
+  variations: 3

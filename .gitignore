@@ -1,0 +1,20 @@
+# User-specific config (contains API keys)
+.claude/*.local.md
+.env
+
+# Database files
+data/content.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Temporary files
+.tmp/
+
+# OS files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Deliverables (user-generated content)
+deliverables/

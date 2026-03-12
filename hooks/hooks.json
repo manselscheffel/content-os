@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "type": "prompt",
+      "prompt": "Check if .claude/content-os.local.md exists. If it does NOT exist, briefly inform the user: 'Content OS is not configured yet. Run /content-setup to get started.' Do not block or prevent other work — just mention it once."
+    }
+  ]
+}

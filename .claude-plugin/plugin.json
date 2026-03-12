@@ -1,0 +1,19 @@
+{
+  "name": "content-os",
+  "version": "0.1.0",
+  "description": "AI-powered content operating system for YouTube and LinkedIn — ideate, create, publish, and repurpose content with intelligence-driven workflows.",
+  "author": {
+    "name": "Mansel Scheffel",
+    "url": "https://github.com/manselscheffel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "content",
+    "youtube",
+    "linkedin",
+    "ai",
+    "automation",
+    "content-creation",
+    "seo"
+  ]
+}
