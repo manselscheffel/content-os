@@ -1,20 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "content-os-marketplace",
+  "version": "1.0.0",
+  "description": "Content OS plugins for YouTube and LinkedIn content production.",
   "owner": {
     "name": "Mansel Scheffel",
-    "url": "https://github.com/manselscheffel"
+    "email": "mansel@example.com"
   },
   "plugins": [
     {
       "name": "content-os",
-      "source": ".",
+      "source": "./",
       "description": "AI-powered content operating system for YouTube and LinkedIn — ideate, create, publish, and repurpose content with intelligence-driven workflows.",
       "version": "0.1.0",
       "author": {
         "name": "Mansel Scheffel"
       },
-      "category": "content",
-      "license": "MIT"
+      "category": "content"
     }
   ]
 }
